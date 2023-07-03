@@ -6,18 +6,13 @@ https://conwaylife.com/Links to an external site. has a lot of resources for the
 
 Conway's Game of Life is a cell simulator program that runs trough evolution's and cells react to different rules by showing a state of being alive or dead on a board. 
 
-There are four main rules that each cell follows.
+## There are four main rules that each cell follows.
 
-Any live cell with fewer that two live neighbors dies due to under population
- 
+1. Any live cell with fewer that two live neighbors dies due to under population
+2. Any live cell with more than three live neighbors dies due to overpopulation
+3. Any live cell with two or three live neighbors stays unchanged.
+4. Any dead cell with exactly three live neighbors will come to life
 
-Any live cell with more than three live neighbors dies due to overpopulation
- 
-
-Any live cell with two or three live neighbors stays unchanged.
- 
-
-Any dead cell with exactly three live neighbors will come to life
 The following requirements are needed for this project:
 
 Project is buildable with CMake
